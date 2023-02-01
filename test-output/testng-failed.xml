@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]">
+  <test name="testCucumber(failed)">
+    <classes>
+      <class name="com.LoginPage">
+        <methods>
+          <include name="enter_username"/>
+          <include name="open_Application_and_Enter_url"/>
+          <include name="verify_Msg"/>
+          <include name="enter_password"/>
+        </methods>
+      </class> <!-- com.LoginPage -->
+    </classes>
+  </test> <!-- testCucumber(failed) -->
+</suite> <!-- Failed suite [Suite] -->
